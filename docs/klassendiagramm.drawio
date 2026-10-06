@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="se1-uml" name="Klassendiagramm">
+    <mxGraphModel dx="1500" dy="1060" grid="1" page="1" pageWidth="1500" pageHeight="1060">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Übung 1: Klassendiagramm" style="text;html=0;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="1400" height="35" />
+        </mxCell>
+        <mxCell id="author" value="Tim Naoto Herder" style="text;html=0;align=left;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="60" width="1400" height="25" />
+        </mxCell>
+        <mxCell id="pkg_view" value="view" style="text;html=0;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="115" width="350" height="25" />
+        </mxCell>
+        <mxCell id="pkg_control" value="control" style="text;html=0;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="430" y="115" width="1050" height="25" />
+        </mxCell>
+        <mxCell id="pkg_tests" value="tests.uebung1" style="text;html=0;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="430" y="625" width="1050" height="25" />
+        </mxCell>
+        <mxCell id="Main" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="63" y="169" width="300" height="100" />
+        </mxCell>
+        <mxCell id="Main_heading" value="Main" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="63" y="169" width="300" height="34" />
+        </mxCell>
+        <mxCell id="Main_attrs" value="" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="63" y="203" width="300" height="31" />
+        </mxCell>
+        <mxCell id="Main_op0" value="+ main(args: String[]): void {static}" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="239" width="276" height="20" />
+        </mxCell>
+        <mxCell id="Client" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="343" width="300" height="100" />
+        </mxCell>
+        <mxCell id="Client_heading" value="Client" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="343" width="300" height="34" />
+        </mxCell>
+        <mxCell id="Client_attrs" value="" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="377" width="300" height="31" />
+        </mxCell>
+        <mxCell id="Client_op0" value="~ display(aNumber: int): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="62" y="413" width="276" height="20" />
+        </mxCell>
+        <mxCell id="Translator" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="453" y="161" width="420" height="115" />
+        </mxCell>
+        <mxCell id="Translator_heading" value="«interface» Translator" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="453" y="161" width="420" height="34" />
+        </mxCell>
+        <mxCell id="Translator_attrs" value="+ version: double = 1.0 {static, readOnly}" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="453" y="195" width="420" height="31" />
+        </mxCell>
+        <mxCell id="Translator_op0" value="+ translateNumber(number: int): String" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="465" y="231" width="396" height="20" />
+        </mxCell>
+        <mxCell id="Factory" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="439" y="358" width="420" height="135" />
+        </mxCell>
+        <mxCell id="Factory_heading" value="TranslatorFactory {leaf}" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="439" y="358" width="420" height="34" />
+        </mxCell>
+        <mxCell id="Factory_attrs" value="" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="439" y="392" width="420" height="31" />
+        </mxCell>
+        <mxCell id="Factory_op0" value="- TranslatorFactory()" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="451" y="428" width="396" height="20" />
+        </mxCell>
+        <mxCell id="Factory_op1" value="+ createTranslator(): Translator {static}" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="451" y="451" width="396" height="20" />
+        </mxCell>
+        <mxCell id="German" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="955" y="175" width="480" height="230" />
+        </mxCell>
+        <mxCell id="German_heading" value="GermanTranslator" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="955" y="175" width="480" height="34" />
+        </mxCell>
+        <mxCell id="German_attrs" value="+ date: String = null" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="955" y="209" width="480" height="31" />
+        </mxCell>
+        <mxCell id="German_op0" value="+ translateNumber(number: int): String" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="967" y="245" width="456" height="20" />
+        </mxCell>
+        <mxCell id="German_op1" value="~ printInfo(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="967" y="268" width="456" height="20" />
+        </mxCell>
+        <mxCell id="German_op2" value="+ setDate(date: String): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="967" y="291" width="456" height="20" />
+        </mxCell>
+        <mxCell id="German_op3" value="+ getDate(): String" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="967" y="314" width="456" height="20" />
+        </mxCell>
+        <mxCell id="Test" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="435" y="668" width="990" height="275" />
+        </mxCell>
+        <mxCell id="Test_heading" value="GermanTranslatorTest" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="435" y="668" width="990" height="34" />
+        </mxCell>
+        <mxCell id="Test_attrs" value="- translator: Translator {readOnly}" style="rounded=0;html=0;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="435" y="702" width="990" height="31" />
+        </mxCell>
+        <mxCell id="Test_op0" value="~ lowerBoundaryOne(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="738" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op1" value="~ singleDigit(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="758" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op2" value="~ ten(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="778" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op3" value="~ irregularElevenAndTwelve(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="798" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op4" value="~ teensAndShortenedStems(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="818" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op5" value="~ twenty(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="838" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op6" value="~ oneInCompound(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="858" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op7" value="~ thirty(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="878" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op8" value="~ shortenedTens(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="447" y="898" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op9" value="~ ordinaryCompound(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="738" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op10" value="~ upperBoundaryNinetyNine(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="758" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op11" value="~ upperBoundaryHundred(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="778" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op12" value="~ invalidNumbers(number: int): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="798" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op13" value="~ interfaceVersion(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="818" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op14" value="~ maximumIntegerIsExplicitException(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="838" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op15" value="~ factorySetsCurrentDate(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="858" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op16" value="~ factoryCreatesIndependentObjects(): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="878" width="480" height="20" />
+        </mxCell>
+        <mxCell id="Test_op17" value="~ allNumbersAgainstIndependentOracle(number: int, expected: String): void" style="text;html=0;align=left;spacing=0;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="898" width="480" height="20" />
+        </mxCell>
+        <mxCell id="edge0" value="«create», display()" edge="1" parent="1" source="Main" target="Client" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.48333333333333334;exitY=1.0;entryX=0.48333333333333334;entryY=0.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" value="translateNumber()" edge="1" parent="1" source="Client" target="Translator" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.3;entryX=0.0;entryY=0.4782608695652174;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="400" y="365" />
+              <mxPoint x="400" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="createTranslator()" edge="1" parent="1" source="Client" target="Factory" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.8;entryX=0.0;entryY=0.48148148148148145;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" value="Rückgabetyp" edge="1" parent="1" source="Factory" target="Translator" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" value="«create», setDate()" edge="1" parent="1" source="Factory" target="German" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.4444444444444444;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1195" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" value="" edge="1" parent="1" source="German" target="Translator" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=block;endFill=0;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.0;exitY=0.2391304347826087;entryX=1.0;entryY=0.4782608695652174;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" value="erzeugt Testobjekte" edge="1" parent="1" source="Test" target="Factory" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.3383838383838384;exitY=0.0;entryX=0.7976190476190477;entryY=1.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge7" value="getDate(), Typprüfung" edge="1" parent="1" source="Test" target="German" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.8737373737373737;exitY=0.0;entryX=0.7395833333333334;entryY=1.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" value="testet Vertrag" edge="1" parent="1" source="Test" target="Translator" style="edgeStyle=segmentEdgeStyle;html=0;dashed=1;endArrow=open;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.4797979797979798;exitY=0.0;entryX=0.8809523809523809;entryY=1.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="920" y="305" />
+              <mxPoint x="815" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
